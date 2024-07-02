@@ -1,0 +1,26 @@
+//? for next.js project
+{
+  "include": ["**/*"],
+  "exclude": ["node_modules", "**/node_modules", "dist", "build", ".next"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "allowJs": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node"
+  }
+}
+
+//? for react.js project
+{
+  "include": ["**/*"],
+  "exclude": ["node_modules", "**/node_modules", "dist", "build"],
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node"
+  }
+}
